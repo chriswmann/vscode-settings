@@ -1,3 +1,3 @@
-# VSC Snippets
+# VSC Settings
 
-Snippets for VS Codium/Code
+Settings for VS Codium/Code

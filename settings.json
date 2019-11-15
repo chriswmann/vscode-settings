@@ -1,0 +1,37 @@
+{
+    "python.pythonPath": "C:\\Users\\cwmann\\AppData\\Local\\Continuum\\anaconda3",
+    "python.terminal.activateEnvironment": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "window.zoomLevel": 0,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "terminal.explorerKind": "external",
+    "editor.snippetSuggestions": "top",
+    "team.showWelcomeMessage": false,
+    "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["h"]
+        }
+        {
+            "before": ["k"],
+            "after": ["j"]
+        }
+        {
+            "before": ["l"],
+            "after": ["k"]
+        }
+        {
+            "before": [";"],
+            "after": ["l"]
+        }
+    ]
+}
