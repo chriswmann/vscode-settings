@@ -35,18 +35,20 @@
         {
             "before": [";"],
             "after": ["l"]
-        },
+        }
     ],
     "terminal.integrated.rendererType": "dom",
     "editor.multiCursorModifier": "ctrlCmd",
+    "latex-workshop.latex.outDir": "%DIR%/output",
     "latex-workshop.latex.tools": [
         {
-            "name": "xelatex",
-            "command": "xelatex",
+            "name": "latexmk",
+            "command": "latexmk",
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
+                "-pdf",
                 "%DOC%"
             ]
         },
@@ -60,12 +62,12 @@
         ],
         "latex-workshop.latex.recipes": [
         {
-            "name": "xelatex -> biber -> xelatex*2",
+            "name": "latexmk -> biber -> latexmk*2",
             "tools": [
-                "xelatex",
+                "latexmk",
                 "biber",
-                "xelatex",
-                "xelatex"
+                "latexmk",
+                "latexmk"
             ]
         }
     ]
