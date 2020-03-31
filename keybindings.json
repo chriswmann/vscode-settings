@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+oem_6",
@@ -14,4 +13,13 @@
         "key": "ctrl+alt+b",
         "command": "python.execInTerminal"
     },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.terminal.focusPrevious"
+    }
 ]
+
