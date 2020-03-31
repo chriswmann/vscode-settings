@@ -35,7 +35,7 @@
         {
             "before": [";"],
             "after": ["l"]
-        },
+        }
     ],
     "terminal.integrated.rendererType": "dom",
     "editor.multiCursorModifier": "ctrlCmd",
@@ -61,6 +61,7 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
+                "-pdf",
                 "%DOC%"
             ]
         },
@@ -81,15 +82,6 @@
                 "biber",
                 "latexmk",
                 "latexmk"
-            ]
-        },
-        {
-            "name": "xelatex -> biber -> xelatex*2",
-            "tools": [
-                "xelatex",
-                "biber",
-                "xelatex",
-                "xelatex"
             ]
         }
     ],
