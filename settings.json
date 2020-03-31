@@ -5,7 +5,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "python.linting.pylintUseMinimalCheckers": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "terminal.explorerKind": "external",
     "editor.snippetSuggestions": "top",
@@ -16,22 +16,57 @@
     "files.trimFinalNewlines": true,
     "workbench.editor.enablePreview": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["j"],
             "after": ["h"]
-        }
+        },
         {
             "before": ["k"],
             "after": ["j"]
-        }
+        },
         {
             "before": ["l"],
             "after": ["k"]
-        }
+        },
         {
             "before": [";"],
             "after": ["l"]
+        },
+    ],
+    "terminal.integrated.rendererType": "dom",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+        ],
+        "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex -> biber -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "biber",
+                "xelatex",
+                "xelatex"
+            ]
         }
     ]
 }
