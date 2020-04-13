@@ -2,12 +2,11 @@
     "Docstring": {
         "prefix": "docstring",
         "body": [
-          "/*",
-          "    Name: ${1:name}",
-          "    Description: ${2:description}",
-          "    Arguments: ${3:arguments}",
-          "    Returns: ${4:returns}",
-          "*/"
+          "//  \\fn ${1:name}",
+          "//  \\return ${2:return}",
+          "//  \\arg ${3:arg}",
+          "//  \\arg ${4:arg}",
+          "//  \\remark ${5:remark}"
         ]
     },
     "Class definition": {
@@ -364,5 +363,13 @@
             ""
         ],
         "description": "Code snippet for include mutex"
+    },
+    "General include": {
+        "prefix": "include",
+        "body": "#include <${1:include}>"
+    },
+    "Local include": {
+        "prefix": "linclude",
+        "body": "#include \"${2:include}\""
     }
 }
