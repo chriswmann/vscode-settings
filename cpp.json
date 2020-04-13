@@ -1,4 +1,26 @@
 {
+	  "Docstring": {
+		"prefix": "docstring",
+		"body": [
+		  "/*",
+          "    Name: ${1:name}",
+          "    Description: ${2:description}",
+          "    Arguments: ${3:arguments}",
+          "    Returns: ${4:returns}",
+          "*/",
+          ""
+        ],
+	  "Class definition": {
+		"prefix": "class ",
+		"body": [
+          "class ${1:class name} {",
+          "    ${2:instance variables}",
+          "",
+          "public:",
+          "    ${4:member functions}",
+          "};",
+          ""
+        ],
     "for": {
         "prefix": "for",
         "body": [
