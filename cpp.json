@@ -1,5 +1,5 @@
 {
-	  "Docstring": {
+    "Docstring": {
 		"prefix": "docstring",
 		"body": [
 		  "/*",
@@ -10,7 +10,7 @@
           "*/",
           ""
         ],
-	  "Class definition": {
+    "Class definition": {
 		"prefix": "class ",
 		"body": [
           "class ${1:class name} {",
@@ -119,7 +119,7 @@
         "description": "Code snippet for enum class (c++11)"
     },
     "class": {
-        "prefix": "class",
+        "prefix": "cclass",
         "body": [
             "class ${MyClass}",
             "{",
