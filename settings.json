@@ -1,0 +1,81 @@
+{
+    "python.pythonPath": "C:\\Users\\cwmann\\AppData\\Local\\Continuum\\anaconda3",
+    "python.terminal.activateEnvironment": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "python.linting.pylintUseMinimalCheckers": false,
+    "window.zoomLevel": -1,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "terminal.explorerKind": "external",
+    "editor.snippetSuggestions": "top",
+    "team.showWelcomeMessage": false,
+    "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["h"]
+        },
+        {
+            "before": ["k"],
+            "after": ["j"]
+        },
+        {
+            "before": ["l"],
+            "after": ["k"]
+        },
+        {
+            "before": [";"],
+            "after": ["l"]
+        }
+    ],
+    "terminal.integrated.rendererType": "dom",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "latex-workshop.latex.outDir": "%DIR%/output",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "-pdf",
+            "-outdir=%OUTDIR%",
+            "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "--input-directory=%OUTDIR%",
+                "--output-directory=%OUTDIR%",
+                "%DOCFILE%"
+            ]
+        }
+        ],
+        "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk -> biber -> latexmk*2",
+            "tools": [
+                "latexmk",
+                "biber",
+                "latexmk",
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.recipe.default": "lastUsed"
+}

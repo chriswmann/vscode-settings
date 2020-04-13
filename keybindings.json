@@ -1,0 +1,25 @@
+[
+    {
+        "key": "ctrl+oem_6",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_6",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.terminal.focusPrevious"
+    }
+]
+
