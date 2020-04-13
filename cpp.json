@@ -310,6 +310,14 @@
         ],
         "description": "Code snippet for include vector"
     },
+    "numeric": {
+        "prefix": "numeric",
+        "body": [
+            "#include <numeric>",
+            ""
+        ],
+        "description": "Code snippet for include numeric"
+    },
     "sstream": {
         "prefix": "sstream",
         "body": [
