@@ -293,76 +293,53 @@
         "description": "Code snippet for 'for' loop"
     },
     "fstream": {
-        "prefix": "fstream",
-        "body": [
-            "#include <fstream>",
-            ""
-        ],
+        "prefix": "#fstream",
+        "body": "#include <fstream>",
         "description": "Code snippet for include fstream"
     },
     "iostream": {
-        "prefix": "iostream",
-        "body": [
-            "#include <iostream>",
-            ""
-        ],
+        "prefix": "#iostream",
+        "body": "#include <iostream>",
         "description": "Code snippet for include iostream"
     },
     "string": {
-        "prefix": "string",
-        "body": [
-            "#include <string>",
-            ""
-        ],
+        "prefix": "#string",
+        "body": "#include <string>",
         "description": "Code snippet for include string"
     },
     "regex": {
-        "prefix": "regex",
-        "body": [
-            "#include <regex>",
-            ""
-        ],
+        "prefix": "#regex",
+        "body": "#include <regex>",
         "description": "Code snippet for include regex"
     },
     "vector": {
-        "prefix": "vector",
-        "body": [
-            "#include <vector>",
-            ""
-        ],
+        "prefix": "#vector",
+        "body": "#include <vector>",
         "description": "Code snippet for include vector"
     },
     "numeric": {
-        "prefix": "numeric",
-        "body": [
-            "#include <numeric>",
-            ""
-        ],
+        "prefix": "#numeric",
+        "body": "#include <numeric>",
         "description": "Code snippet for include numeric"
     },
     "sstream": {
-        "prefix": "sstream",
-        "body": [
-            "#include <sstream>",
-            ""
-        ],
+        "prefix": "#sstream",
+        "body":  "#include <sstream>",
         "description": "Code snippet for include sstream"
     },
     "thread": {
-        "prefix": "thread",
-        "body": [
-            "#include <thread>",
-            ""
-        ],
+        "prefix": "#thread",
+        "body": "#include <thread>",
         "description": "Code snippet for include thread"
     },
     "mutex": {
-        "prefix": "mutex",
-        "body": [
-            "#include <mutex>",
-            ""
-        ],
+        "prefix": "#mutex",
+        "body": "#include <mutex>",
         "description": "Code snippet for include mutex"
+    },
+    "stdexcept": {
+        "prefix": "#stdexcept",
+        "body": "#include <stdexcept>"
     },
     "General include": {
         "prefix": "include",
